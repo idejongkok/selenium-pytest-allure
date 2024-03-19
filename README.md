@@ -13,5 +13,6 @@ How to run the test:
 - Just type "run" on your terminal, I've created the batch file to run it. NOTE >> "TEMPORARY FOR WINDOWS OS ONLY"
 - Or run as pytest running only (without reports)
 
-  Cheers,
-  Uno :v 
+Cheers,
+  
+-Uno :v- 
