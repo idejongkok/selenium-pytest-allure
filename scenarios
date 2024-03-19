@@ -1,0 +1,28 @@
+feature: Login
+
+Positive case
+Scenario: As an user, I should be able to login with correct username and password
+
+Steps: 
+- I open OrangeHRM web apps
+- I Input correct Username
+- I Input correct Password
+- I click Login Button
+- I should go to dashboard page
+
+Negative cases  
+Scenario: As an user, I should not be able to login with wrong username and or wrong password
+
+Steps: 
+- I open OrangeHRM web apps
+- I Input Username
+- I Input Password
+- I click Login Button
+- I see the alert for Invalid credential appeared
+- I should not go to dashboard page
+
+| Username   | Password  | Result |
+-----------------------------------
+| incorrect  | correct   | PASS   |
+| correct    | incorrect | PASS   |
+| incorrect  | incorrect | PASS   |

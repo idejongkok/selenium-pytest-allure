@@ -1,0 +1,13 @@
+{
+    "login":{
+        "input_usrname":"username",
+        "input_pw":"password",
+        "button_login":"//button[@type='submit']",
+        "text_invalid_credential":"//p[@class='oxd-text oxd-text--p oxd-alert-content-text']"
+    },
+
+    "dashboard":{
+        "text_title":"h6"
+    }
+
+}
